@@ -5,6 +5,7 @@ setup(
     version = '0.1',
     install_requires = [
         'pandas',
+        'requests',
         'bs4', 
         'tabulate', 
         'Click'],
@@ -12,6 +13,6 @@ setup(
     entry_points = """
     [console_scripts]
     huhu=amazonpricer:huhu []
-    ap=amazonpricer:main []
+    ap=amazonpricer:cli []
     """
 )
