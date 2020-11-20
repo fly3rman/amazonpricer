@@ -1,3 +1,6 @@
+fetch the price of an amazon product and compare it to a wanted price.
+uses sqlite3.
+
 ## install:
 ```console
 pip install .
@@ -6,8 +9,8 @@ pip install .
 ## run:
 ### add item:
 ```console
-ap add ID PRICE
-``
+ap add $ID $WANTED_PRICE
+```
 ### example:
 ```console
 ap add B07RSSH31R 28
